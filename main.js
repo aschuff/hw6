@@ -1,4 +1,4 @@
-var user = prompt("You are walking through the forest on your way to Utopia when you find a lamp. After rubbing the lamp, a Genie pops out. He gives you a 3 choices. What do you ask from the Genie? A SPELL, MONEY, or to TRAVEL?");
+var user = prompt("You are walking through the forest when you find a lamp. After rubbing the lamp, a Genie appears. He gives you 3 choices. What do you ask for - A SPELL, MONEY, or to TRAVEL?");
 switch(user){
     case 'spell':
         var love = prompt("A love spell? YES or NO?").toLowerCase();
